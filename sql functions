@@ -1,0 +1,13 @@
+SELECT SUM(marks) from students;
+
+SELECT COUNT(studentID) from students;
+
+SELECT COUNT(studentID) 
+from students
+WHERE marks>75;
+
+SELECT AVG(studentID) from students;
+
+SELECT MIN(studentID) from students;
+
+SELECT MAX(studentID) from students;
